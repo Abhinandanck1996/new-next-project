@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Raleway',sans-serif;
+}
+p,h2,h3,h6,h1{
+    letter-spacing: 0em !important;
+    word-spacing: 0em !important;
+}
+.custom-img{
+    height: 90vh;
+    background-image:url('https://thumbs.dreamstime.com/z/agile-development-methodology-concept-virtual-screen-technology-concept-agile-development-methodology-concept-virtual-screen-145014918.jpg');
+}
+.new-module img{
+    width: 20% !important;
+    margin: auto;
+    float: left;
+}
+.new-module,
+.text-module{
+    width: 90%;
+    margin: auto;
+}
+.head-module h2{
+    font-weight: 500;
+    line-height: 1.2em !important;
+}
+.head-module p{
+    font-weight: 700;
+}
+.content-module{
+    width: 80%;
+    margin: auto;
+}
+.content-module p{
+    font-weight: 400;
+}
+.content-module1 img,
+.content-module3 img{
+    height: 15vh;
+    width: 20vh;
+}
+.map-module h1{
+    line-height:1.3em !important;
+    font-weight: 700;
+}
+.main-div,
+.text-main{
+    width: 90%;
+    margin: auto;
+}
+.main-footer img{
+    width: 200px;
+    height: 100%;
+}
+.main-footer{
+    height:130px;
+}
+.foot-main{
+    width: 90%;
+    margin: auto;
+      height: 130px;
+}
+
+@media(max-width:980px){
+    .head-module{
+        margin-left: -10rem !important;
+        margin-top: 10rem !important;
+    }
+    .head-module h2{
+        font-size: 24px !important;
+    }
+    .head-module p{
+        font-size: 18px !important;
+    }
+    .main-div{
+        display: block !important;
+    }
+    .text-main,
+    .main-flex-div{
+        display: block !important;
+    }
+    .main-flex-div .card{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .main-card h2{
+        font-size: 30px !important;
+    }
+    .text-main div{
+        margin: 10px !important; 
+    }
+    .main-footer{
+        display: block !important;
+        height: auto !important;
+    }
+    .foot-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-module2 p{
+        font-size: 10px !important;
+        line-height: 1.2em !important;
+    }
+    .map-module{
+        margin-top: 4rem !important;
+    }
+}
+@media(max-width:640px){
+    .head-module{
+        margin-left: -7.5rem !important;
+        margin-top: 6rem !important;
+    }
+    .head-module h2{
+        font-size: 24px;
+    }
+    .head-module p{
+        font-size: 18px;
+    }
+}
+@media(max-width:500px){
+    .custom-img{
+        height: 60vh !important;
+    }
+    .custom-div{
+        height: 60vh !important;
+    }
+}
+@media(max-width:330px){
+    .custom-img{
+        height: 100vh !important;
+    }
+    .custom-div{
+        height: 100vh !important;
+    }
+    .head-module{
+        margin-left: 1rem !important;
+        margin-top: 0rem !important;
+    }
+    .head-module h2{
+        font-size: 18px !important;
+    }
+    .head-module p{
+        font-size: 10px !important;
+        padding-top: 10px !important;
+        line-height: 1.2em !important;
+    }
+    .head-module button{
+        font-size: 10px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+        line-height: 1.4rem !important;
+
+    }
+    .main-card{
+        display: none !important;
+    }
+}
